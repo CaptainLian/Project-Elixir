@@ -10,7 +10,7 @@ return [
     | Here you may specify which of the database connections below you wish
     | to use as your default connection for all database work. Of course
     | you may use many connections at once using the Database library.
-    | 
+    |
     */
 
     'default' => env('DB_CONNECTION', 'mongodb'),
@@ -80,9 +80,9 @@ return [
 
         'mongodb' => [
             'driver'   => 'mongodb',
-            'host'     => env('DB_HOST', 'localhost'),
-            'port'     => env('DB_PORT', 27017),
-            'database' => env('DB_DATABASE', 'ElixirDB'),
+            'host'     => env('DB_HOST'),
+            'port'     => env('DB_PORT'),
+            'database' => env('DB_DATABASE'),
             'username' => env('DB_USERNAME'),
             'password' => env('DB_PASSWORD'),
             'use_mongo_id' => false,
@@ -104,7 +104,7 @@ return [
     |
     */
 
-    'migrations' => 'migrations',
+    'migrations' => 'Laravel_Migrations',
 
     /*
     |--------------------------------------------------------------------------

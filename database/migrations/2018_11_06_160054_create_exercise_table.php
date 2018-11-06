@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateAccountTable extends Migration
+class CreateExerciseTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateAccountTable extends Migration
      */
     public function up()
     {
-        Schema::connection('mongodb')->create('Account', function(Blueprint $collection){
+		Schema::connection('mongodb')->create('Exercise', function(Blueprint $collection){
 
         });
     }
@@ -25,7 +25,7 @@ class CreateAccountTable extends Migration
      */
     public function down()
     {
-        Schema::connection('mongodb')->table('Account', function (Blueprint $collection) 
+		Schema::connection('mongodb')->table('Exercise', function (Blueprint $collection)
         {
             $collection->drop();
         });

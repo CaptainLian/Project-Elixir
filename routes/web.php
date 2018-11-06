@@ -10,19 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::view('/', 'pages.homepage');
+Route::view('/exercise/upload', 'pages.exercise_upload');
+Route::view('/exercise/search', 'pages.exercise_search');
 
-Route::get('/', function () {
-    //return view('welcome');
-	return view('pages.homepage');
-});
-
-Route::get('/exercise/upload', function(){
-	return view('pages.exercise_upload');
-});
-
-Route::get('/exercise/search', function(){
-	return view('pages.exercise_search');
-});
-
+Route::get('/testModel', 'TestController@getAllUsers');
 
 ?>

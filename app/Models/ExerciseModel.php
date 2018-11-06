@@ -6,14 +6,14 @@ use Illuminate\Support\Facades\DB;
 use Jenssegers\Mongodb\Eloquent\Model as Moloquent;
 use Jenssegers\Mongodb\Eloquent\SoftDeletes;
 
-class AccountModel extends Moloquent
+class ExerciseModel extends Moloquent
 {
 	use SoftDeletes;
 
 	protected $connection = 'mongodb';
 
 	protected $primaryKey = '_id';
-    protected $collection = 'Account';
+    protected $collection = 'Exercise';
 }
 
 ?>
