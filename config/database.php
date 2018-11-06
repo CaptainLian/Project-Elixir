@@ -10,10 +10,10 @@ return [
     | Here you may specify which of the database connections below you wish
     | to use as your default connection for all database work. Of course
     | you may use many connections at once using the Database library.
-    |
+    | 
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'mongodb'),
 
     /*
     |--------------------------------------------------------------------------
@@ -78,6 +78,19 @@ return [
             'prefix' => '',
         ],
 
+        'mongodb' => [
+            'driver'   => 'mongodb',
+            'host'     => env('DB_HOST', 'localhost'),
+            'port'     => env('DB_PORT', 27017),
+            'database' => env('DB_DATABASE', 'ElixirDB'),
+            'username' => env('DB_USERNAME'),
+            'password' => env('DB_PASSWORD'),
+            'use_mongo_id' => false,
+            'options' => [
+                'db' => 'admin', // Sets the authentication database required by mongo 3
+                //['replicaSet' => 'replicaSetName'], // Connect to multiple servers or replica sets
+            ]
+        ]
     ],
 
     /*
