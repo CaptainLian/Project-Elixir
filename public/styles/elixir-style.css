@@ -1,0 +1,535 @@
+body {
+	background: #2DC462;
+}
+
+@font-face {
+	font-family: Quicksand;
+	src: url("Quicksand_Book.otf");
+}
+
+.chosen-container ul.chosen-results li.highlighted {
+	background-color: #2DC462;
+	background-image: none;
+}
+
+header .navbar-default {
+  background-color: #2DC462;
+	height: 48px;
+	box-shadow: 0px 3px 2px #1FA84F;
+}
+
+header .navbar-nav > li > a  {
+    font-family: Quicksand, Sans serif, Arial;
+	font-size: 2em;
+}
+
+header .navbar-default .container {
+	height: 48px;
+}
+
+.navbar-default .navbar-brand {
+  font-family: Quicksand, Sans serif, Arial;
+	font-size: 2em;
+	text-shadow: 0px 2px #666666;
+	margin-top: 8px;
+	position: relative;
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #F7F7F7;
+}
+
+.elixir-logo {
+	margin-right: 10px;
+	margin-bottom: 6px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+.navbar .nav > li > a {
+    color: #FFFFFF;
+    text-shadow: none;
+}
+
+a, a:hover, a:focus, a:active, footer a.text-link:hover, strike, .post-meta span a:hover, footer a.text-link, ul.meta-post li a:hover, ul.cat li a:hover, ul.recent li h6 a:hover, ul.portfolio-categ li.active a, ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover, ul.related-post li h4 a:hover, span.highlight, article .post-heading h3 a:hover, .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > li > a:hover, .navbar .nav > li > a:focus, .navbar .nav > .active > a:focus {
+    color: #CFEFAA;
+}
+
+.cta-text {
+  text-align: center;
+  margin-top: 10px;
+	position: relative;
+	width: 930px;
+	margin: 0 auto;
+}
+
+#banner{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div#smartwizard > ul > li
+{
+	width: 25%;
+	text-align: center;
+}
+
+div#smartwizard div.instructionDiv {
+	margin-bottom: 15px;
+}
+
+div#smartwizard form h6 {
+	font-family: Arial, Sans serif;
+	font-size: 1em;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+div#smartwizard form input {
+	font-family: Arial, Sans serif;
+	font-size: 1em;
+}
+
+select#subject-select {
+	height: 34px;
+}
+
+.tm-input {
+	width: 250px;
+}
+
+#informationDiv{
+  position: relative;
+	width: 100%;
+}
+
+div#smartwizard p
+{
+	font-family: Arial, Sans serif;
+	font-size: 1.25em;
+}
+
+div#smartwizard .panel-body {
+    font-family: Arial, Sans serif;
+	padding: 15px;
+	padding-top: 0px;
+    background-color: #FDFDFD;
+	margin-top: 0px;
+}
+
+#title{
+	color: #087830;
+}
+
+section.callaction {
+    background: #FFFFFF;
+    padding: 10px 0 0 0;
+}
+
+section.content {
+	background: #FFFFFF;
+	padding-bottom: 30px;
+}
+
+#answerkeyexercise h3, #answerkeyexercise p, .bs-callout h3, .bs-callout p {
+	font-family: Arial, Sans-serif;
+}
+
+footer {
+	position: relative;
+  background: #2DC462;
+  padding: 0px 0 0 0;
+	height: 10px;
+}
+
+#sub-footer {
+    background: #2DC462;
+    padding-top: 0px;
+}
+
+#content {
+    position: relative;
+    background: #fff;
+    padding: 0px 0 40px 0;
+}
+
+.solidline {
+		position: relative;
+		bottom: 20px;
+    border-top: 2px solid #f5f5f5;
+    margin: 0px;
+}
+
+h4.heading {
+    font-weight: 700;
+}
+
+#addField {
+    outline: 0;
+    background: #087830;
+    border-color: #FFF;
+    font-size: 18px;
+}
+
+#removeField {
+    outline: 0;
+    background: #a40b0b;
+    border-color: #FFF;
+    font-size: 18px;
+}
+
+
+
+.buttons{
+    bottom: 15px;
+}
+
+.buttons .clear{
+    left: 15px;
+    position: relative;
+}
+
+.lastButtons {
+    outline: 0;
+    border-color: #FFF;
+    font-size: 35px;
+}
+
+.lastButtons2 {
+    outline: 0;
+    border-color: #FFF;
+    font-size: 35px;
+    left: 30px;
+    position: relative;
+}
+
+#search {
+    outline: 0;
+    border-color: #FFF;
+    font-size: 20px;
+}
+
+#firstDivider{
+    position: relative;
+    bottom: 50px;
+}
+
+#smartwizard{
+    position: relative;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+#finalButtons{
+     text-align: center;
+}
+
+#submitButton{
+    font-size:  20px;
+}
+
+#cancelButton{
+    font-size: 20px;
+}
+
+#secondDivider{
+    position: relative;
+    bottom: 28px;
+}
+
+#searchSection{
+    position: relative;
+    bottom: 80px;
+}
+
+#thirdDivider{
+    position: relative;
+    bottom: 100px;
+}
+
+#resultsSection{
+    position: relative;
+    bottom: 150px;
+}
+
+#tableSection{
+    position: relative;
+    bottom: 35px;
+}
+
+#advanceButton {
+    outline: 0;
+    border-color: #FFF;
+    font-size: 20px;
+}
+
+.bs-callout {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+
+.bs-callout code {
+    border-radius: 3px;
+}
+
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+
+.bs-callout-default {
+    border-left-color: #777;
+}
+
+.bs-callout-default h4 {
+    color: #777;
+}
+
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+
+#questionsDiv{
+    position: relative;
+}
+
+
+section#search-div {
+	background-color: #FFFFFF;
+}
+
+div#search-results {
+	padding-bottom: 50px;
+	min-height: 680px;
+	padding-top: 20px;
+	visibility: hidden;
+	position: relative;
+}
+
+div#search-results div#results {
+	opacity: 0;
+	visibility: hidden;
+	display: none;
+}
+
+
+div#search-results > #loading {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto auto;
+}
+
+div.search-result div.search-item {
+	background-color: #EDEDED;
+	margin-top: 10px;
+	min-height: 120px;
+	padding-right: 250px;
+}
+
+div.search-result .search-result-title {
+	margin: 0px;
+	padding-top: 10px;
+}
+
+div.search-result .search-result-author {
+	margin: 0px;
+}
+
+div.search-result .search-result-tags a {
+	border-radius: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+div.search-result .main-area {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-family: Arial, sans-serif;
+}
+
+div.search-result .sub-area {
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	font-size: 1.1em;
+	font-family: Arial, sans-serif;
+	font-style: italic;
+}
+
+div.search-result .view-button {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	background-color: #2DC462;
+	color: #FFFFFF;
+}
+
+div.search-result .search-result-instruction {
+	font-size: 1.2em;
+	font-family: Arial, sans-serif;
+	margin-top: 15px;
+}
+
+div#page-controls {
+	margin-top: 20px;
+}
+
+div#overlay {
+	display: none;
+	z-index: 100;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	padding-top: 20px;
+	top: 0px;
+	left: 0px;
+}
+
+div.overlay-content {
+	display: none;
+	position: absolute;
+	top: 56px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+
+div#preview {
+	z-index: 101;
+	background-color: #FFFFFF;
+	opacity: 1;
+	height: 850px;
+	position: relative;
+	left: 18px;
+}
+
+div#exercise-preview h3, div#exercise-preview p {
+	font-family: Arial, Sans-serif;
+}
+
+div.side-result-item {
+	position: relative;
+	right: 18px;
+	z-index: 101;
+	background-color: #DEDEDE;
+	padding: 15px;
+	margin: 3px;
+	min-height: 105px;
+}
+
+div.side-result-item.active {
+	background-color: #DBFFCC;
+}
+
+div.side-result-item .search-result-title {
+	font-size: 1.3em;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.side-result-item .search-result-author {
+	font-size: 1em;
+	padding: 0px;
+	margin: 0px;
+	font-style: italic;
+}
+
+div.side-result-item .search-result-tags a {
+	border-radius: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#bg{
+    position: relative;
+    top: 90px;
+   margin-left: auto;
+	margin-right: auto;
+    margin-bottom: -500px;
+    display: block;
+}
+
+#test{
+  
+      background-image: url(../img/test4.png);
+}
+
+#iconSearch{
+
+	position: absolute;
+	margin-left: 109%;
+	top: 308px;
+}
+
+.label{
+	color: #000;
+}
+
