@@ -13,8 +13,8 @@ class CreateSessionsTable extends Migration
      */
     public function up()
     {
-        Schema::connection(env('SESSION_CONNECTION'))->create('Sessions', function (Blueprint $collection) {
-
+        Schema::connection(env('SESSION_CONNECTION'))->create(config('session.table'), function (Blueprint $collection) {
+			
         });
     }
 
@@ -25,7 +25,7 @@ class CreateSessionsTable extends Migration
      */
     public function down()
     {
-		Schema::connection(env('SESSION_CONNECTION'))->table('Exercise', function (Blueprint $collection)
+		Schema::connection(env('SESSION_CONNECTION'))->table(config('session.table'), function (Blueprint $collection)
         {
             $collection->drop();
         });

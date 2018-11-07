@@ -7,25 +7,25 @@ TO DO: more about information
 
 ## Technical Details
 ### Requirements
-1. PHP >= 7.2
-2. MongoDB
+1. [PHP >= 7.2](https://secure.php.net/downloads.php)
+2. [MongoDB](https://www.mongodb.com/download-center)
 3. [MongoDB Driver for PHP](https://pecl.php.net/package/mongodb) - [Details](http://php.net/manual/en/set.mongodb.php)
-4. Composer
+4. [Composer](https://getcomposer.org/)
 
 ### Installation
-1. Satisfy requirements
-2. Clone the repository `git clone https://github.com/CaptainLian/Project-Elixir`
-3. Create a `.env` file. See `.env.example` file for details
-4. Configure MongoDB
-5. Create a database on MongoDB named `ElixirDB` or depending on information provided inside the `.env` file
-6. Open the terminal/command prompt and go to the repository directory `cd Project-Elixir`
+1. Satisfy requirements.
+2. Clone the repository `git clone https://github.com/CaptainLian/Project-Elixir`.
+3. Create a `.env` file. See `.env.example` file for details.
+4. Configure MongoDB.
+5. Create a database on MongoDB named `ElixirDB` or depending on information provided inside the `.env` file.
+6. Open the terminal/command prompt and go to the repository directory `cd Project-Elixir`.
 7. Run the command `composer install` This would download dependencies, internet connection is required for this step.
-8. Run the command `php artisan key:generate`
-9. Run the command `php artisan migrate`
+8. Run the command `php artisan key:generate`.
+9. Run the command `php artisan migrate`.
 
 To run the web application just use the command while in the directory of the project `php artisan serve`
 
---
+---
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
