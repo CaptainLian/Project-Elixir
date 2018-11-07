@@ -15,5 +15,5 @@ Route::view('/exercise/upload', 'pages.exercise_upload');
 Route::view('/exercise/search', 'pages.exercise_search');
 
 Route::get('/testModel', 'TestController@getAllUsers');
-
+Route::get('/testCreate', 'TestController@addUser');
 ?>
